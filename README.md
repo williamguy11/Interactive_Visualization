@@ -10,7 +10,7 @@ In terms of interactivity, we opted for a hover-over technique to enhance user e
 ### Development Process Overview
 Our development process began with exploratory data analysis (EDA), predominantly managed by Caroline and Filina. They spent approximately 5 hours on data importation, cleaning, and addressing missing data points by averaging values from the beginning and midpoint of the decade corresponding to the missing value. This stage was crucial as it laid the foundation for our final visualization, and it involved numerous variable naming corrections to ensure data integrity.
 
-Once the dataset was cleaned, we transitioned to utilizing Observable with D3.js for our interactive visualization. William was primarily responsible for this phase, dedicating about 6 hours over two consecutive days. His tasks included importing data into Observable, plotting it on the line graph, and implementing mouse hover interactions.
+Once the dataset was cleaned, we transitioned to utilizing Observable with D3.js for our interactive visualization. William was primarily responsible for this phase, dedicating about 6 hours over two consecutive days. His tasks included importing data into Observable, plotting it on the line graph, and implementing mouse hover interactions, which provides information about each line's demographic, year and the rate of suicide death.
 
 Collaboration was a key component of our project, especially in finalizing the visualization. All team members contributed to enhancing the chart’s labels, title, font size, and axis scaling, which took about an hour in total. This collective effort ensured that our final product was polished and user-friendly.
 
