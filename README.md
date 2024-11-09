@@ -5,6 +5,24 @@ Your deployed web page should also include a write-up with the following compone
 
     An overview of your development process. Describe how the work was split among the team members. Include a commentary on the development process, including answers to the following questions: Roughly how much time did you spend developing your application (in people-hours)? What aspects took the most time?
 
+
+Rationale for Design Decisions
+In designing our visualization of suicide death rates, we aimed to create an intuitive and informative experience for users. The choice to use a line plot stemmed from our need to display trends over time clearly. Line plots are particularly effective for showing changes across continuous data sets, allowing viewers to grasp increases or decreases in suicide rates across different demographic groups.
+
+When analyzing demographic impacts, we knew we needed to visualize multiple groups simultaneously. This led us to explore various graphic options, including bar charts and area plots. Ultimately, we settled on the line plot due to its ability to facilitate comparison across groups and to highlight one aspect clearly: the base rate represented by the “All Persons” category. To distinguish this reference line, we chose to color it red, a decision aimed at intuitively signaling its importance as a baseline.
+
+In terms of interactivity, we opted for a hover-over technique to enhance user engagement. This design choice eliminated the necessity for a detailed legend, which can be cumbersome and lead to information overload. The hover interactions allowed users to focus on specific demographic lines, providing immediate feedback about each segment without cluttering the visualization. This direct interaction helps maintain user attention while conveying essential information clearly.
+
+Development Process Overview
+Our development process began with exploratory data analysis (EDA), predominantly managed by Caroline and Filina. They spent approximately 5 hours on data importation, cleaning, and addressing missing data points by averaging values from the beginning and midpoint of the decade corresponding to the missing value. This stage was crucial as it laid the foundation for our final visualization, and it involved numerous variable naming corrections to ensure data integrity.
+
+Once the dataset was cleaned, we transitioned to utilizing Observable with D3.js for our interactive visualization. William was primarily responsible for this phase, dedicating about 6 hours over two consecutive days. His tasks included importing data into Observable, plotting it on the line graph, and implementing mouse hover interactions.
+
+Collaboration was a key component of our project, especially in finalizing the visualization. All team members contributed to enhancing the chart’s labels, title, font size, and axis scaling, which took about an hour in total. This collective effort ensured that our final product was polished and user-friendly.
+
+In total, we dedicated approximately 10 hours to developing the application. Data preprocessing dominated our timeline, accounting for more than half of the total hours, while the actual execution of visualization also required considerable focus to ensure interactivity and clarity. The organized split of responsibilities among team members fostered a conducive development environment, leading us to a successful outcome.
+
+
 Suicide deaths are difficult to make sense of for those left behind.  In the U.S., 1.6 million Americans attempted suicide in 2022 (CDC).  We were curious if this is an increase from historical suicide death rates.  After examining suicide death rates we wanted to understand the trend over the time period of available data.  In order to easily visualize suicide death rates across the years, a line plot seemed like a logical choice.  
 After some research, it was discovered that males have the highest suicide death rates.  We were curious what other demographics had a significant impact on suicide death rates. We decided to examine race, gender, ethnicity, and age to determine which groups are most at risk of suicide deaths.  In order to effectively display the suicide death rates of many different groups, we needed a way to visualize them together, compare them to the baseline of everyone in the U.S., and also drill down to examine each group individually.  After reviewing several different graphs, we found a line plot that enabled us to view the each group individually by highlighting and labeling it, view all the groups together, and point out the baseline by using a different color.  
 
