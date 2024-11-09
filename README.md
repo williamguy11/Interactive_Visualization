@@ -1,3 +1,5 @@
+Link to Data Visualization: https://observablehq.com/d/78e40ad312a2983e
+
 Suicide deaths pose a profound challenge for those left behind, often leaving friends and family searching for answers. According to the CDC, 1.6 million Americans attempted suicide in 2022. This statistic raises important questions about whether it represents an increase compared to historical rates. Research indicates that males consistently have the highest suicide death rates. To further understand this issue, we decided to explore how other demographics—specifically race, gender, ethnicity, and age—affect suicide death rates and identify which groups are most at risk.
 
 ### Rationale for Design Decisions
